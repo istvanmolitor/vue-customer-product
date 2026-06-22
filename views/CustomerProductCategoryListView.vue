@@ -15,7 +15,6 @@ const pagination = ref<PaginationMeta>({
 })
 
 const columns: Column<CustomerProductCategory>[] = [
-  { key: 'id', label: 'ID', sortable: true, width: '80px' },
   { key: 'name', label: 'Név', sortable: true },
   { key: 'customer', label: 'Ügyfél', sortable: false },
   { key: 'parent', label: 'Szülő kategória', sortable: false },
