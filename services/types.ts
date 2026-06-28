@@ -7,6 +7,7 @@ export interface PaginatedResponse<T> {
     total: number
   }
   filters?: Record<string, unknown>
+  columns?: Array<{ key: string; label: string; sortable: boolean }>
 }
 
 export interface SingleResponse<T> {
